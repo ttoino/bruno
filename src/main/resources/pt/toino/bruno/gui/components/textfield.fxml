@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import java.net.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<?import javafx.geometry.Insets?>
+<fx:root styleClass="shadow" type="StackPane" xmlns="http://javafx.com/javafx/10.0.2-internal"
+         xmlns:fx="http://javafx.com/fxml/1" minHeight="56" maxHeight="56">
+
+    <HBox StackPane.alignment="TOP_CENTER" maxHeight="36"/>
+
+    <TextField fx:id="textfield" minHeight="56"/>
+
+    <Label fx:id="label" text="Label" mouseTransparent="true" StackPane.alignment="CENTER_LEFT">
+        <labelFor>
+            <fx:reference source="textfield"/>
+        </labelFor>
+        <StackPane.margin>
+            <Insets left="14"/>
+        </StackPane.margin>
+    </Label>
+
+    <stylesheets>
+        <URL value="@textfield.css"/>
+    </stylesheets>
+
+</fx:root>

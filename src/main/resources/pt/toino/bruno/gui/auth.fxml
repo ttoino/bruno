@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
+
+<?import pt.toino.bruno.gui.components.BrunoTextField?>
+<?import pt.toino.bruno.gui.components.BrunoButton?>
+<VBox alignment="CENTER"
+      prefHeight="360.0" prefWidth="640.0"
+      spacing="16"
+      xmlns="http://javafx.com/javafx/10.0.2-internal"
+      xmlns:fx="http://javafx.com/fxml/1"
+      styleClass="root"
+      fx:controller="pt.toino.bruno.gui.AuthUI">
+
+    <Text styleClass="title,shadow" text="Login/Sign Up"/>
+
+    <BrunoTextField/>
+
+    <PasswordField minHeight="56" styleClass="outlined-tf,shadow"/>
+
+    <BrunoButton text="OK"/>
+
+</VBox>

@@ -1,0 +1,36 @@
+.root {
+    -fx-background-image: url("textures/background.png");
+    -fx-background-position: center center;
+    -fx-background-size: cover;
+    -fx-background-repeat: no-repeat;
+
+    -fx-font-family: Roboto;
+    -fx-font-smoothing-type: gray;
+
+    -fx-padding: 16px;
+}
+
+.shadow {
+    -fx-effect: dropshadow(gaussian, black, 0, 0, -1, 1);
+}
+
+.title {
+    -fx-fill: white;
+    -fx-font-size: 34px;
+}
+
+.outlined-tf {
+    -fx-background-color: transparent;
+    -fx-text-fill: white;
+    -fx-font-size: 16px;
+    -fx-border-color: white;
+    -fx-border-radius: 2px;
+    -fx-border-width: 1px;
+    -fx-border-style: solid;
+    -fx-padding: 0px 12px 0px 12px;
+}
+
+.outlined-tf:focused {
+    -fx-border-width: 2px;
+}
+
